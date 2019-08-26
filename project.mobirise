@@ -17,13 +17,14 @@
     "uniqCompNum": 70,
     "versionPublish": "4.10.1",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/favicon-tabatoo-1.ico",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-transparent-128x128-4.png",
     "noImageResize": "",
-    "google-analytics": "<!-- Google Analytics -->\r\n<script>\r\nwindow.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;\r\nga('create', 'UA-XXXXX-Y', 'auto');\r\nga('send', 'pageview');\r\n</script>\r\n<script async src='https://www.google-analytics.com/analytics.js'></script>\r\n<!-- End Google Analytics -->",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "",
-    "siteUrl": "",
-    "sitemapSwitcherAuto": "on"
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-146428403-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-146428403-1');\r\n</script>",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nDisallow: /administrator/\nDisallow: /bin/\nDisallow: /cache/\nDisallow: /cli/\nDisallow: /components/\nDisallow: /includes/\nDisallow: /installation/\nDisallow: /language/\nDisallow: /layouts/\nDisallow: /libraries/\nDisallow: /logs/\nDisallow: /modules/\nDisallow: /plugins/\nDisallow: /support/\nDisallow: /tmp/\nUser-agent: ClearWebStats\nDisallow: /\nUser-agent: CuteStat\nDisallow: /\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "https://ar.tabatoo-gps.com",
+    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
